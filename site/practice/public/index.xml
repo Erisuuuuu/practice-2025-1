@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Киберполигон</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Киберполигон</description>
+    <generator>Hugo</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Mon, 20 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Первый этап завершён</title>
+      <link>http://localhost:1313/blog/post1/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/post1/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/progress1.jpg&#34; alt=&#34;Прогресс&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Что сделано:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Реализована базовая функциональность&lt;/li&gt;&#xA;&lt;li&gt;Проведено тестирование&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/XXXXXXX?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;  # Вставьте ID видео с YouTube&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>👇Полезные материалы👇</title>
+      <link>http://localhost:1313/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/</guid>
+      <description>&lt;h2 id=&#34;ссылки&#34;&gt;Ссылки&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mospolytech.ru/&#34;&gt;👉Сайт Московского политеха👈&lt;/a&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/60356b30-ae3f-4395-8181-ac29345b0105.jpg&#34; alt=&#34;https://mospolytech.ru/&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://cyberpolygon.netlify.app/&#34;&gt;👉Сайт проекта👈&lt;/a&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/cyberpolygon.png&#34; alt=&#34;https://cyberpolygon.netlify.app/&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://projects.mospolytech.ru/tproduct/413315123-945301126692-kiberpoligon&#34;&gt;👉Страница проекта в ЦПД👈&lt;/a&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/xUGnYY5op1g.jpg&#34; alt=&#34;https://projects.mospolytech.ru/tproduct/413315123-945301126692-kiberpoligon&#34;&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/Erisuuuuu/practice-2025-1/blob/master/task/README.md&#34;&gt;👉Задание по проектной практике👈&lt;/a&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/Github.png&#34; alt=&#34;https://github.com/Erisuuuuu/practice-2025-1/blob/master/task/README.md&#34;&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Наша команда</title>
+      <link>http://localhost:1313/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/team/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/60356b30-ae3f-4395-8181-ac29345b0105.jpg&#34; alt=&#34;Фото команды&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;вклад-участников&#34;&gt;Вклад участников&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;&lt;strong&gt;ФИО&lt;/strong&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;strong&gt;Группа&lt;/strong&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Стальмахов Иван Сергеевич&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;241-3211&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;img src=&#34;http://localhost:1313/images/photo_2025-04-15_10-16-52.jpg&#34; alt=&#34;Я&#34;&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Работал под курированием Кирияк Юрия&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>О проекте</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h3 id=&#34;наши-преимущества&#34;&gt;Наши преимущества&lt;/h3&gt;&#xA;&lt;p&gt;Реалистичные сценарии кибератак&#xA;Практические задания основаны на актуальных киберугрозах, что позволяет участникам погружаться в реальные ситуации.&lt;/p&gt;&#xA;&lt;h3 id=&#34;обучение-от-экспертов&#34;&gt;Обучение от экспертов&lt;/h3&gt;&#xA;&lt;p&gt;Наши тренеры — профессионалы с многолетним опытом в области кибербезопасности, которые делятся практическими знаниями и последними тенденциями в отрасли.&lt;/p&gt;&#xA;&lt;h3 id=&#34;интерактивная-платформа&#34;&gt;Интерактивная платформа&lt;/h3&gt;&#xA;&lt;p&gt;Удобный интерфейс и геймифицированные элементы обучения помогают сделать процесс обучения увлекательным и продуктивным.&lt;/p&gt;&#xA;&lt;h3 id=&#34;адаптивные-программы&#34;&gt;Адаптивные программы&lt;/h3&gt;&#xA;&lt;p&gt;Мы предлагаем курсы как для новичков, так и для опытных специалистов, что позволяет каждому обучающемуся расти в своем темпе.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
