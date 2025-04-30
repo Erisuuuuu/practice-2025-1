@@ -1,4 +1,4 @@
-{{ define "main" }}
+{{/*  {{ define "main" }}   OLD
   <article class="pa3 pa4-ns nested-copy-line-height">
     <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
       {{- .Content -}}
@@ -8,6 +8,49 @@
         <div class="w-100 w-30-l mb4 relative bg-white">
           {{ .Render "summary" }}
         </div>
+      {{ end }}
+    </section>
+    {{- template "_internal/pagination.html" . -}}
+  </article>
+{{ end }}  */}}
+{{/*  {{ define "main" }}
+  <article class="pa2 pa3-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+      {{- .Content -}}
+    </section>
+    <section class="flex-ns mt5 flex-wrap justify-around">
+      {{ range .Paginator.Pages }}
+        <div class="w-100 w-20-l mb4 relative bg-white">
+          {{ .Render "summary" }}
+        </div>
+      {{ end }}
+    </section>
+    {{- template "_internal/pagination.html" . -}}
+  </article>
+{{ end }}  */}}
+{{ define "main" }}
+  <article class="pa2 pa3-ns nested-copy-line-height">
+    <!-- Узкий центральный блок -->
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center custom-text-width lh-copy nested-links {{ $.Param "text_color" | compare.Default "mid-gray" }}">
+      {{- .Content -}}
+    </section>
+
+    <!-- Сетка постов с контролем ширины -->
+    <section class="flex-ns mt4 flex-wrap justify-center">  <!-- justify-around → justify-center -->
+      {{ range .Paginator.Pages }}
+      <div class="w-100 w-20-l mb4 relative bg-white">
+        <div style="max-height: 190px; overflow: hidden; position: relative;">
+          {{ .Render "summary" }}
+          <div style="
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 30px;
+            background: linear-gradient(to bottom, transparent, white);
+          "></div>
+        </div>
+      </div>
       {{ end }}
     </section>
     {{- template "_internal/pagination.html" . -}}
