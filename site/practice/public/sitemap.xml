@@ -2,17 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/blog/</loc>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post13/</loc>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post12/</loc>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post11/</loc>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post10/</loc>
+    <lastmod>2025-04-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-04-10T16:12:12+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-04-10T16:12:12+03:00</lastmod>
+    <loc>http://localhost:1313/blog/post8/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2024-05-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/post9/</loc>
+    <lastmod>2025-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post7/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post6/</loc>
+    <lastmod>2025-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post5/</loc>
+    <lastmod>2025-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post4/</loc>
+    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post3/</loc>
+    <lastmod>2025-03-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/post2-/</loc>
+    <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/post1/</loc>
-    <lastmod>2024-05-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/resources/</loc>
   </url><url>
@@ -20,8 +56,8 @@
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/team/</loc>
-  </url><url>
     <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/team/</loc>
   </url>
 </urlset>

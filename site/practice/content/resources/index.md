@@ -11,3 +11,7 @@ title: "👇Полезные материалы👇"
 ![https://projects.mospolytech.ru/tproduct/413315123-945301126692-kiberpoligon](/images/xUGnYY5op1g.jpg)
 - [👉Задание по проектной практике👈](https://github.com/Erisuuuuu/practice-2025-1/blob/master/task/README.md)
 ![https://github.com/Erisuuuuu/practice-2025-1/blob/master/task/README.md](/images/Github.png)
+- [👉Сайт R-EVOlution Conference👈](https://revolutionconf.ru/)
+![https://revolutionconf.ru/](/images/image.png)
+- [👉Центр карьеры Московского Политеха👈](https://mospolycareermarafon.ru/#tab3)
+![maraphon](/images/123.png)

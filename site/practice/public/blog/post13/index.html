@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru-ru">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Задание вариативной части | Киберполигон</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="🐄 Проект &ldquo;Cowsay &#43; Fortune&rdquo; на Go
+📋 Описание проекта
+Цель проекта — реализовать консольное приложение на языке Go, которое имитирует поведение утилит cowsay и fortune. Оно выводит случайную цитату, взятую из текстового файла, в стиле ASCII-коровы, как это делает cowsay.
+🔍 Исследование предметной области
+1. Утилита fortune
+
+
+fortune — консольная программа, которая выводит случайную цитату или шутку из заранее определённого набора.
+
+
+Пример строки в fortune.txt:
+Don&#39;t panic!
+%
+To be or not to be.
+
+
+2. Утилита cowsay
+
+cowsay — отображает текст в рамке, которую &ldquo;произносит&rdquo; ASCII-корова.
+ASCII-арт, оформляющий цитату, усиливает визуальную составляющую.
+
+🛠️ Пошаговое руководство по созданию
+📁 Шаг 1. Подготовка структуры проекта
+project/
+├── main.go
+├── go.mod
+└── fortune.txt
+Файл fortune.txt должен содержать цитаты, разделённые символом %.">
+    <meta name="generator" content="Hugo 0.145.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    <meta name="author" content="Стальмахов Иван Сергеевич, 241-3211">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/blog/post13/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/blog/post13/">
+  <meta property="og:site_name" content="Киберполигон">
+  <meta property="og:title" content="Задание вариативной части">
+  <meta property="og:description" content="🐄 Проект “Cowsay &#43; Fortune” на Go 📋 Описание проекта Цель проекта — реализовать консольное приложение на языке Go, которое имитирует поведение утилит cowsay и fortune. Оно выводит случайную цитату, взятую из текстового файла, в стиле ASCII-коровы, как это делает cowsay.
+🔍 Исследование предметной области 1. Утилита fortune fortune — консольная программа, которая выводит случайную цитату или шутку из заранее определённого набора.
+Пример строки в fortune.txt:
+Don&#39;t panic!%To be or not to be. 2. Утилита cowsay cowsay — отображает текст в рамке, которую “произносит” ASCII-корова. ASCII-арт, оформляющий цитату, усиливает визуальную составляющую. 🛠️ Пошаговое руководство по созданию 📁 Шаг 1. Подготовка структуры проекта project/├── main.go├── go.mod└── fortune.txt Файл fortune.txt должен содержать цитаты, разделённые символом %.">
+  <meta property="og:locale" content="ru_ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2025-05-15T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-05-15T00:00:00+00:00">
+
+  <meta itemprop="name" content="Задание вариативной части">
+  <meta itemprop="description" content="🐄 Проект “Cowsay &#43; Fortune” на Go 📋 Описание проекта Цель проекта — реализовать консольное приложение на языке Go, которое имитирует поведение утилит cowsay и fortune. Оно выводит случайную цитату, взятую из текстового файла, в стиле ASCII-коровы, как это делает cowsay.
+🔍 Исследование предметной области 1. Утилита fortune fortune — консольная программа, которая выводит случайную цитату или шутку из заранее определённого набора.
+Пример строки в fortune.txt:
+Don&#39;t panic!%To be or not to be. 2. Утилита cowsay cowsay — отображает текст в рамке, которую “произносит” ASCII-корова. ASCII-арт, оформляющий цитату, усиливает визуальную составляющую. 🛠️ Пошаговое руководство по созданию 📁 Шаг 1. Подготовка структуры проекта project/├── main.go├── go.mod└── fortune.txt Файл fortune.txt должен содержать цитаты, разделённые символом %.">
+  <meta itemprop="datePublished" content="2025-05-15T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-05-15T00:00:00+00:00">
+  <meta itemprop="wordCount" content="654">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Задание вариативной части">
+  <meta name="twitter:description" content="🐄 Проект “Cowsay &#43; Fortune” на Go 📋 Описание проекта Цель проекта — реализовать консольное приложение на языке Go, которое имитирует поведение утилит cowsay и fortune. Оно выводит случайную цитату, взятую из текстового файла, в стиле ASCII-коровы, как это делает cowsay.
+🔍 Исследование предметной области 1. Утилита fortune fortune — консольная программа, которая выводит случайную цитату или шутку из заранее определённого набора.
+Пример строки в fortune.txt:
+Don&#39;t panic!%To be or not to be. 2. Утилита cowsay cowsay — отображает текст в рамке, которую “произносит” ASCII-корова. ASCII-арт, оформляющий цитату, усиливает визуальную составляющую. 🛠️ Пошаговое руководство по созданию 📁 Шаг 1. Подготовка структуры проекта project/├── main.go├── go.mod└── fortune.txt Файл fortune.txt должен содержать цитаты, разделённые символом %.">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Киберполигон
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/" title="Главная📌 page">
+              Главная📌
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/about/" title="О проектеℹ️ page">
+              О проектеℹ️
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/team/" title="Участники🤝 page">
+              Участники🤝
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/blog/" title="Журнал📰 page">
+              Журнал📰
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white white-90 no-underline" href="/resources/" title="Ресурсы🌐 page">
+              Ресурсы🌐
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Blogs
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Задание вариативной части</h1>
+      
+      <p class="tracked"><strong>Стальмахов Иван Сергеевич, 241-3211</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-05-15T00:00:00Z">May 15, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="-проект-cowsay--fortune-на-go">🐄 Проект &ldquo;Cowsay + Fortune&rdquo; на Go</h1>
+<h2 id="-описание-проекта">📋 Описание проекта</h2>
+<p>Цель проекта — реализовать консольное приложение на языке Go, которое имитирует поведение утилит <code>cowsay</code> и <code>fortune</code>. Оно выводит случайную цитату, взятую из текстового файла, в стиле ASCII-коровы, как это делает <code>cowsay</code>.</p>
+<h2 id="-исследование-предметной-области">🔍 Исследование предметной области</h2>
+<h3 id="1-утилита-fortune">1. Утилита <code>fortune</code></h3>
+<ul>
+<li>
+<p><code>fortune</code> — консольная программа, которая выводит случайную цитату или шутку из заранее определённого набора.</p>
+</li>
+<li>
+<p>Пример строки в <code>fortune.txt</code>:</p>
+<pre tabindex="0"><code>Don&#39;t panic!
+%
+To be or not to be.
+</code></pre></li>
+</ul>
+<h3 id="2-утилита-cowsay">2. Утилита <code>cowsay</code></h3>
+<ul>
+<li><code>cowsay</code> — отображает текст в рамке, которую &ldquo;произносит&rdquo; ASCII-корова.</li>
+<li>ASCII-арт, оформляющий цитату, усиливает визуальную составляющую.</li>
+</ul>
+<h2 id="-пошаговое-руководство-по-созданию">🛠️ Пошаговое руководство по созданию</h2>
+<h3 id="-шаг-1-подготовка-структуры-проекта">📁 Шаг 1. Подготовка структуры проекта</h3>
+<pre tabindex="0"><code>project/
+├── main.go
+├── go.mod
+└── fortune.txt
+</code></pre><p><strong>Файл <code>fortune.txt</code></strong> должен содержать цитаты, разделённые символом <code>%</code>.</p>
+<p>Пример:</p>
+<pre tabindex="0"><code>Stay hungry, stay foolish.
+%
+Imagination is more important than knowledge.
+%
+Don&#39;t believe everything you think.
+</code></pre><h3 id="-шаг-2-разбор-кода">🧠 Шаг 2. Разбор кода</h3>
+<h4 id="1-чтение-файла-с-цитатами">1. Чтение файла с цитатами</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">content</span>, <span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">ioutil</span>.<span style="color:#a6e22e">ReadFile</span>(<span style="color:#a6e22e">fortunePath</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">quotes</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Split</span>(string(<span style="color:#a6e22e">content</span>), <span style="color:#e6db74">&#34;%&#34;</span>)
+</span></span></code></pre></div><h4 id="2-выбор-случайной-цитаты">2. Выбор случайной цитаты</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">rand</span>.<span style="color:#a6e22e">Seed</span>(<span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Now</span>().<span style="color:#a6e22e">UnixNano</span>())
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">randomInt</span>(<span style="color:#ae81ff">0</span>, len(<span style="color:#a6e22e">quotes</span>))
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">quote</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">TrimSpace</span>(<span style="color:#a6e22e">quotes</span>[<span style="color:#a6e22e">i</span>])
+</span></span></code></pre></div><h4 id="3-генерация-ascii-рамки-и-коровы">3. Генерация ASCII-рамки и коровы</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">cowsay</span>(<span style="color:#a6e22e">text</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">string</span> { <span style="color:#f92672">...</span> }
+</span></span></code></pre></div><p>📌 Используется разделение текста по строкам, выравнивание по длине, создание рамки и добавление ASCII-арта.</p>
+<h4 id="4-финальный-вывод">4. Финальный вывод</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">cowsay</span>(<span style="color:#a6e22e">quote</span>))
+</span></span></code></pre></div><h3 id="-шаг-3-запуск-программы">▶️ Шаг 3. Запуск программы</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>go run main.go
+</span></span></code></pre></div><h2 id="-иллюстрации">🖼️ Иллюстрации</h2>
+<h3 id="1-структура-проекта">1. Структура проекта</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>project/
+</span></span><span style="display:flex;"><span>├── main.go
+</span></span><span style="display:flex;"><span>├── go.mod
+</span></span><span style="display:flex;"><span>└── fortune.txt
+</span></span></code></pre></div><h3 id="2-диаграмма-архитектуры-uml">2. Диаграмма архитектуры (UML)</h3>
+<p><img src="/images/UML.png" alt="UML"></p>
+<h3 id="3-пример-вывода">3. Пример вывода</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span> _____________________________
+</span></span><span style="display:flex;"><span>&lt; Stay hungry, stay foolish. &gt;
+</span></span><span style="display:flex;"><span> -----------------------------
+</span></span><span style="display:flex;"><span>        \   ^__^
+</span></span><span style="display:flex;"><span>         \  (oo)\_______
+</span></span><span style="display:flex;"><span>            (__)\       \/\
+</span></span><span style="display:flex;"><span>                ||----w |
+</span></span><span style="display:flex;"><span>                ||     ||
+</span></span></code></pre></div><h3 id="4-логика-выбора-цитаты">4. Логика выбора цитаты</h3>
+<p><img src="/images/logica.png" alt="logic"></p>
+<h2 id="-модификация-проекта-творческий-пункт">💡 Модификация проекта (творческий пункт)</h2>
+<h3 id="добавлена-поддержка-вывода-длинных-цитат-с-автоматическим-переносом-строк">Добавлена поддержка вывода длинных цитат с автоматическим переносом строк</h3>
+<h4 id="новый-код">Новый код:</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">wrapText</span>(<span style="color:#a6e22e">text</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">width</span> <span style="color:#66d9ef">int</span>) <span style="color:#66d9ef">string</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">result</span> <span style="color:#66d9ef">string</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">words</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Fields</span>(<span style="color:#a6e22e">text</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">line</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">word</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">words</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">line</span>)<span style="color:#f92672">+</span>len(<span style="color:#a6e22e">word</span>)<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span> &gt; <span style="color:#a6e22e">width</span> {
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">result</span> <span style="color:#f92672">+=</span> <span style="color:#a6e22e">line</span> <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;\n&#34;</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">line</span> = <span style="color:#a6e22e">word</span>
+</span></span><span style="display:flex;"><span>		} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">line</span> <span style="color:#f92672">!=</span> <span style="color:#e6db74">&#34;&#34;</span> {
+</span></span><span style="display:flex;"><span>				<span style="color:#a6e22e">line</span> <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34; &#34;</span>
+</span></span><span style="display:flex;"><span>			}
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">line</span> <span style="color:#f92672">+=</span> <span style="color:#a6e22e">word</span>
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">result</span> <span style="color:#f92672">+=</span> <span style="color:#a6e22e">line</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">result</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Используется перед вызовом <code>cowsay</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e">wrapped</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">wrapText</span>(<span style="color:#a6e22e">quote</span>, <span style="color:#ae81ff">40</span>)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">cowsay</span>(<span style="color:#a6e22e">wrapped</span>))
+</span></span></code></pre></div><h3 id="замена-cowsay">Замена cowsay</h3>
+<p>Была заменена корова на аниме персонажа</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-tex" data-lang="tex"><span style="display:flex;"><span>                                 —{                                                                 
+</span></span><span style="display:flex;"><span>                                 ——                                                                 
+</span></span><span style="display:flex;"><span>                                 ——                                                                 
+</span></span><span style="display:flex;"><span>                                  ———————›                                                          
+</span></span><span style="display:flex;"><span>                               ›z6ÇÇÇÇÇ6Ç6üzz{›                                                     
+</span></span><span style="display:flex;"><span>                             —ÏÇ66666666ü66üüüüÏ—›                                                  
+</span></span><span style="display:flex;"><span>                            {üÏ66666666666666666Ïüz{                                                
+</span></span><span style="display:flex;"><span>                           {ü666666666666üÇ6ÇÇ66ÇÏzÏíí›                                             
+</span></span><span style="display:flex;"><span>                          {666Ç6Ç6Ç6üüüüüí—í6666Ç6Ïíz—zí—                                           
+</span></span><span style="display:flex;"><span>                         —ÇÇ66ü6666üÏÏzÏÏíí›—Ïü666üüzz{{zz›                                         
+</span></span><span style="display:flex;"><span>                        ›Ï6Ç66{züÏzzzíízüz—{{{6üüüü6666üzÏÏ{                                        
+</span></span><span style="display:flex;"><span>                        —66Ç66{›—zzí{{{zz6üüíÏí6üÏüüÇü6üüüüüí                                       
+</span></span><span style="display:flex;"><span>                        {z6666í›íízÏz{{—{—zz{——{üÏzíüÞÇ66666ü—                                      
+</span></span><span style="display:flex;"><span>                        {{66üüü—Ïü66z—››› ››››——üÏíÏüüü666zÏ666Ï{››                                 
+</span></span><span style="display:flex;"><span>                        ›ü66üÏÏÇü—í{—í› › › ›››{{íÏü66ü66666ÇÏzÏü6666z{—                            
+</span></span><span style="display:flex;"><span>                         ü6ÇÇüzzÏ{—››{—››››    ›666üü666ÇÇÇÇ6ÇÇ6üüüü6üÇÇ6üz{›                       
+</span></span><span style="display:flex;"><span>                         üÏÞÞÞÇÏzÏ{—›››———{››› ígÅÅgÞÇ666ÇÇÇÇÇÇÇ6666666üüüü66üz—                    
+</span></span><span style="display:flex;"><span>                         ü66ÞÞÞÇ6Ï{››››››››› ›—›ÞÅÅÅÅÅGÇ6ÇÇÇÞÞÞÞÇÇÇÞÞÇÇ6ÇÇ66üz{Ï6Ï—                 
+</span></span><span style="display:flex;"><span>                         Ï6íÞÞÇ66ÇÞü—››››› ›—{››zü{—›—››››—íÇÇÞÞÞÞÇÇÞÇÇÞÇ6üÇÇÇÇÇ6zü6›               
+</span></span><span style="display:flex;"><span>                         {6ÇüÏüÏÏ6gÅÅÅGÏ———zí›—zÞ6{—››››››››{í6ÞÇÞÇÇÇÇÇÇÇÇÇ6í—{ü6ÇÇÞÞ6—             
+</span></span><span style="display:flex;"><span>                       ›{{í6ÏíÏüüGgGÞ6ÞG6Ïí{íÇÞÞÞü—››››››››››››íÇÇÞÇÇÇÇÇÇÇÇÇÇÞ6{›—üÇÞÞÇí            
+</span></span><span style="display:flex;"><span>                      ›——›{66í{züüüüÏüÇGgg—{ÞGÞÞÞGÇüÏí››››››››››{6ÞÇÇÇÞÇÇÞÞÇÇÇÇüü— üÞÞÞÞz           
+</span></span><span style="display:flex;"><span>                      ——›››{Ç6í—{ÏGggggGGgÏzgGÞGÞÞÞÞÞgÞz—› ››—züzzÇÇÇÇÞÞz6GÇÇÇÇ6ÏÏ›6ÞÞÞÞGz          
+</span></span><span style="display:flex;"><span>                     ›{—›››››í66ÇÅÅÅÅgggggggggGÞÞÞÞÞGgGí—›››{6ÇízüÇÇÇÇÞGGízÞÇÞÞÞÇGGÞÞÞÞÞÞG—         
+</span></span><span style="display:flex;"><span>                     ›{——››››››{›{ÞgGÞGgggggÅgGGGGgGgÇ››{—››››——{Ï6ÏÏü6ÞGÞ—ÇÇÇÞÞGGÞGÞÞÞÞÞG—         
+</span></span><span style="display:flex;"><span>                     —zí{—›››—í››—í6gÅÅÅgÞÞÇÅgggggGüí—  —{›››—{zÏüÏíííÏGÞGÇÞÞÞÞGÞÞÞÞÞÞÞGGz          
+</span></span><span style="display:flex;"><span>                     {zí{——›—{í›íí—{—zÞÞÞ666GÅÅÞü{› ›{{›——{————{zzzíízz6ÞGÞÇÞÞGÞGÞGÞÞGGÇ{           
+</span></span><span style="display:flex;"><span>                     {Ïíí{———{íz{››—›—Çü66üü6z——››››››{{{{{—{——ízÏízzíííízüGÞGÞGGGGGÞü{›            
+</span></span><span style="display:flex;"><span>                    ›GÞÏí—{í{—{{›  ››—ííüÇÏÏÏ{{——›››› ›zÏ—{í{íí6zízzízzzzzz6GGGGGGÞÞÇÇÇÇÇü{›        
+</span></span><span style="display:flex;"><span>                     üÞÞÇzííí{{z››   ———Ï6Ïzz{›—›    › {íízÏzzüzÏzzüÏzzzzzzÏÏÏ6ÞGÞÞÞGÞGGGÞGGGÞ{     
+</span></span><span style="display:flex;"><span>                     —ÇÇÞG6zzzzz{ ›› —{—z6Ïüz››› › › › íÏÏÏüüzüzÏÏÏzzzzzzÏÏÏÏÏÏüü6ÇÞÞGÞGGGÞGGGgÞ—   
+</span></span><span style="display:flex;"><span>                    —Çü66ÇÇÞÇ6ÏÏü››››———züÏ6z›››   › ›—íüÞ6ÏÏüÏÏÏÏzzzzzÏÏÏÏüüÇÞÇÞGGGGÞÞGGGGÞGGÞÏí   
+</span></span><span style="display:flex;"><span>                  ›zÇ66666Ç66ÇÞ6Ï{{{{íí—ÏüÏ6Ï›› ››››››—zGÇÏÏÏÇ6ÏÏÏÏÏÏÏÏÏÏÏ6üüüü666ÇÞÞÞÞÞÞGgGÞ6—ü›   
+</span></span><span style="display:flex;"><span>                  ÏÇ666666G6ü66ÞÏ{{{{íííÏüÏ6Ïzz{{{{{{í{zÇ6üüüüGÞÏÏÏÏÏüüÏüÞü6ÇÇ666ÇÇÇÇÞÞÞGgG6züz›    
+</span></span><span style="display:flex;"><span>                  zÞÇ6666ÞÇÞ66ÞÞÏí{{{{zÏÇGÞÇííí{{{{{íz{íÇÇÇüüüz››z66GÇüüÞÇÇ6666ÇÇÇÇÇÞÞÞGGGÞ6{       
+</span></span><span style="display:flex;"><span>                  {6ÇÇÇ666ÞGÞÞÇGzÏí{íÏGgÅÅÅÅgÇí{{{{íÏ{{{üÞÇÞ666  —›  —ÇÇ66666ÇÇÇÇÇÞÞÞÞGÞ{           
+</span></span><span style="display:flex;"><span>                 ›zÇÇÇÇÞÇÞÇÞGÞ6——z——{Ïz66Ï6Çüí{íí{z6zíÏGÅÅGÇÞÇÞ› ›{›  íÞÇ66ÇÇÇÇÇÞÞÞÞÞGÞíÏ6üü{       
+</span></span><span style="display:flex;"><span>                zÇÞÞÞÇÞÞÞÞÞÞGÇ— ›í›››—›zÏÏ6í{—›———í{››zÅÅÅÅgÞÞÞz  {ÇÞ6ÇÇÇÇÇÇÇÇÞÞÞÞÞGGÞíí—  {6—      
+</span></span><span style="display:flex;"><span>               —GGGÞGGGÞGÞÞgÅGí——í  ››—ÏüÏ6›—›  ››— ›—GÅÅÅÅÅgÞÞÞí—{ÏÞÞÞÞÞÞÞÞÞÞÞÞGGGGÇ— ››› íÞ{      
+</span></span><span style="display:flex;"><span>               ÇGGGGGÞÞGGGÅÅÅÇ{›í›››—{ggÅÅgí—›› ›{{ ›ÞÅÅG6ÅÅÅÅüzÇÞÏ{6ÞÞÞÞÞÞÞÞÞGGGGÞ{     —6Çí       
+</span></span><span style="display:flex;"><span>             —ÇGgGGGgGGGgÅÅÅÞí—ííííügÅgÅggÅGÏ{›››{››ÇÅÅGÏzÇÅGÞ6{zÇÇz{ÇÞGGÞGGGGGGggGGGGGGGÇ—         
+</span></span><span style="display:flex;"><span>            {ÞGGGGGGGGGgÅÅÅ6zzÏÏ{››››6GgÅggGGÞÏ{z{›6gggÞzíüÅgÞÞüzüG6zü6GGGGGGGGÞ››{{››              
+</span></span><span style="display:flex;"><span>            ÏgGGGGGGGGGgÅÞ— › ›››    ›››››  › ›—Ïíí{››{ÞüüGÅÅGGÏíüÇÇz{üGgGGGGÇ—                     
+</span></span><span style="display:flex;"><span>           ›ügggGGGGGGGgÞüz{››››› ›   ›{—›   › ›› {z———ügggÅÅgGGÏ{üGGzÏÞgggÅG6í›                    
+</span></span><span style="display:flex;"><span>           ›ÞggggggGgGgÞ6GggGÇÇÞÇÇÏ{›››—› › › ››› ›z—››íGggÅgÅGGÞzüGGÇ6ÞGÅggGggÅGÞÏ›                
+</span></span><span style="display:flex;"><span>           {gggggggggÅggGÞÞggÞGgGÞüzüÇzÏüíÏüÏ{—››››—ü—››6ggÅÅggGG6ÇGGÇüÞggGGGGGGgÅÅÅgÇ›             
+</span></span><span style="display:flex;"><span>—›         zÅgggggggÅÅÅggÅgÞ6ÇÞ—››z6üzzüÞÏüÇÞgÇÏGGgGGGG6zGggüügGGÞÞggggGGGGGGGGGGGGÅÅÅÅgz›          
+</span></span><span style="display:flex;"><span>ü6—       ›ÞgÅgggggÅggggÅÅÅÅgÞÇ6Çz—   › › ›{üÞGgGggÞÇÞgÞGggÞzÞgggGGGGGGGGGGGGÞÞÞÞGÞGGgÅÅÅÅÞ{        
+</span></span><span style="display:flex;"><span>ÇÇ6{     ›ÇÅÅÅÅÅgÅÅÅÅÅgggggggggGÞÇÇÇüzzzí{zzüÞÞÞÞÞÞÞÞÞGÅggGGÞGGgGGGGGGGGGGÞÞÞÞÞGÞGGGÞGGgÅÅÅÅÞ{      
+</span></span><span style="display:flex;"><span>6ÇÇÇÏ    ÏgÅÅÅÅÅÅÅÅÅÅgÅÅgÅgÅgÅÅÅggGÞÇÇGGÞggggggGgGGGGGGgggGGGGGGGGGGGÞGÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞGÅÅÅÅÅÇ›    
+</span></span><span style="display:flex;"><span>üÇÇÇÇÇz›üÅÅÅÅÅÅÅÅÅÅggÅggÅgÅgÅgÅgggggGGÇÇÇ6ü6GGGGGGGGGGggGGÞÇGGGGÞGGÞÞÞÞÞÞÞÞÞÞÞÞÞÞÇÞÇÞÞÞÞÞÞGÅÅÅÅG{   
+</span></span><span style="display:flex;"><span>íÇÇÇÇÇÇÞgÅÅÅÅÅÅÅÅÅÅÅggÅggÅgÅgÅÅgÞggggGgGÞÏ6ÇGgGGGGGGGGgÅgüÏÇÞGÞÞÞÇÏÇÞÞÞÞÞÞÞÞÇÞÇÇÇÇÇÇÇÇüí{{üÞgÅÅÅGí  
+</span></span><span style="display:flex;"><span> üÇÇÇÇÇÇÏzÞÅÅggÅÅÅÅgÅÅÅÅÅgÅgÅÅÅgggggggggGggÞÞÇ6ÞÞGGGgggÅgzüüÇGÅÅgGÏüÞÞÇÇÞÇÇÇÇÇÇÇÇü{         ›ÇÅÅÅÇ— 
+</span></span><span style="display:flex;"><span> —6ÞÇÇÇÇGgÅÅGzÏ6ÇÅÅggggÅgÅÅÅÅÅÅGggggggggggGgggggÞÇÇÇÇGGgÇ{ÏüÇGgÅgGÏÏÞÇÇÇÇÇÇÇÇ6ÇÏ›       ›     6ÅÅÅz 
+</span></span><span style="display:flex;"><span>  {ÇÇÇÞÞüÇÅÅÞÇÞggÅÅÅÅÅgÅgÅgÅÅÅÅÅÅgÅggggggggÅÅÅgÅgggGÞÇ6Çzz66ÞGgggg6zÏ6ÇÇÇ6ÇÇÇÇz{íí{zÏÏÏzz›     üÅÅÇ›
+</span></span><span style="display:flex;"><span>   íÇÇÞÞgÅÅÅÞ666ÇÅÅÅÅÅÅÅÅgÅgÅÅÅÅÅÅÅÅggggÅÅÅggggggggggÅÅGíÞ6ÞGÞGGGG6ÏÏüzÞggggggGgGÞÞÞÞÇ6üÏ{     ›üÅg›
+</span></span><span style="display:flex;"><span>    ›ÇÞÇÇgÅÅÅÅÅÅÅÅÅÅÅÅÅÞÞÞÞÞGÞÞÞÞÞgÆÆÆÆÅGÞÇÞÞGgÅÅÅÅÅgÅÅ66ÞÞÞÇGÞÞÞÞÞÏÏÏzÞggÅgggÅÅÅGÇüzízÏü›      ›6Å{
+</span></span><span style="display:flex;"><span>      íÇÞggÅgÅÅÅÞgÅÅÅÅÅÅ6—› ›    ›ÏÇ6Þü › ›››{züzzüÇÅÅÅ66gÞÏüGÞÞÞÞÞz6üüÇ666üü{         —›        —ÞÏ
+</span></span><span style="display:flex;"><span>       ›zgÅgÅÅÅGíÇÅgÅÅÅÅÅÅÇ— › › ›z666Ï›     ›  ›ÏGÅÅÅÅ6Ç66ÏÞggGGGGüüÏÏ6üüüüüz›        ›—         z6
+</span></span><span style="display:flex;"><span>         ügÅggÇzíÇÅÅgÅgÅÅÅÅg6—   ›í6666z › ›  {6gÅÅÅÅÅgGGÞÇÇGggggggüÏzÏ6üüüüüüí        ›{         ›Ç
+</span></span><span style="display:flex;"><span>         ›ÏüGÅgz—6ÅggÅgÅgÅÅÅÅGz› ›íÇÇÇ6ü—›› —ÇÅÅÅÅÅÅgÅÅÅÅÅÅÅÅGÞggggÏzüüüüüüüüüÏí       —z›         Ï
+</span></span><span style="display:flex;"><span>          —{ígÅíííGÅgÅggÅÅÅÅgGgÅG6ÇÞÇÇÇÇÏ››{GÅÞzGÅÅÅÅggggggGÅgGGggg6z66üÏü6ÏÏüÏÏ{ ›—z{{{›          —
+</span></span><span style="display:flex;"><span>            ›6Å6 ›6ÅgÅgÅgÅgÅÅÅÅÆÆÆÆgGGGÞG{ÞÅÅÆÅÅÅÅgggÅgÅgÅÅggÇ6ÇgggÞzüzüÏÏÏüü66üz›                  
+</span></span><span style="display:flex;"><span>                  zGgÅgÅÅgÅgÅÅÅÅÆÆÆgGGGGÞGÆÆÆÆÅÅÅÅÅÅÅÅgÅgÅgÅgÞüüüüü66ÇüüÏÏÏÏÏÏÏÏí                   
+</span></span><span style="display:flex;"><span>                  ›ÇÅgÅgÅggÅÅÅÅÅÆÆÆgGGÞÞÞÞ6ÅÆÆÆggÅÅgÅgggÅgÅggÞüüüÏÏÏÏÏÏÏÏÏÏÏzzzÏí                   
+</span></span><span style="display:flex;"><span>                   ígÅÅgÅÅgÅgÅÞÇgÅÅgGÞÞÞÏ› zÆÅÆÞÞgÅgÅÅÅÅgÅgggÞüÏÏÏÏÏÏÏÏzÏzzzzzzí                    
+</span></span><span style="display:flex;"><span>                    6ÅgÅgÅgÅgÅÅÅÅÆÆGGÞ6—   ›6ÆÆÅÅÅÅgggggÅgÅggGüÏÏÏÏÏzzzzzzzzzí{                     
+</span></span><span style="display:flex;"><span>                    ›ÅgÅgggggÅÅÅÅÅÆGÞz       ÇÆÆÅÅÅgÅgÅggÅggggüÏÏÏzzzzzzzííí{›                      
+</span></span><span style="display:flex;"><span>                     ígggggggggÅggÅÞ—        ›ÞÆGGÅggggggggÅgG—›{zzzzzíííí{›                        
+</span></span><span style="display:flex;"><span>                     ›6ggÅggggggÅggí          ›GgÅÅggggggggggg{    ››››                             
+</span></span><span style="display:flex;"><span>                      {GgggggggggÅÅí            ÇÅÅggggggggggg{                                     
+</span></span><span style="display:flex;"><span>                       ÏggggggggggÅÏ            ›Çgggggggggggg{                                     
+</span></span><span style="display:flex;"><span>                       —ÇggggggggggG›            ›6ggggggggggg{                                     
+</span></span><span style="display:flex;"><span>                        ÏGgggggggggÅÏ             {ÞgggggggGGgí                                     
+</span></span><span style="display:flex;"><span>                        ›Gggggggggggg              6GgGgGgGgGGÞ›                                    
+</span></span><span style="display:flex;"><span>                         ÇgggggggggGg›             —GGgGggGGGGGÇ                                    
+</span></span><span style="display:flex;"><span>                         zGgggGgGgggÇ               gGgGGGGGGGGGz                                   
+</span></span><span style="display:flex;"><span>                         ügGGgGGGGGgí               zGGGGGGGGGGGÞí                                  
+</span></span><span style="display:flex;"><span>                         ÏgGGGgGGggGz                íGGGGGGGGGGGÇ{                                 
+</span></span><span style="display:flex;"><span>                         ÞggggGGGGGGü                 íGGGÞGÞGÞÞGGG{                                
+</span></span><span style="display:flex;"><span>                        ›ÞGGGGGGGGGGg                 ›üGÞGÞÞÞÞÞÞÞÞÞ›                               
+</span></span><span style="display:flex;"><span>                        ›ÞGGGGGGGGGGG›                 zÞÞÞÞÞÞÞÞÞÞÞÞÞ›                              
+</span></span><span style="display:flex;"><span>                        —ÇGGGGGÞGÞGGGí                 {ÇÞÞÞÞÞÞÞÞÞÞÞÞ6›                             
+</span></span><span style="display:flex;"><span>                        —ÇGÞGÞGÞGÞGÞÞ6                  6ÞÞÞÞÞÞÞÞÞÞÞÞÇz                             
+</span></span><span style="display:flex;"><span>                        —ÇÞÞÞÞÞÞÞÞÞÞÞÇ                  ›ÇÞÞÞÇÞÇÞÇÞÇÞÞü                             
+</span></span><span style="display:flex;"><span>                        —ÇÞÞÞÞÞÞÞÞÞÞÞÞ                   íÞÞÞÞÇÞÇÞÇÇÇÇü—                            
+</span></span><span style="display:flex;"><span>                         üÞÞÞÞÞÞÞÞÞÞÞÇ                    zÇÇÇÇÇÇÇÇÇÇÇÇí                            
+</span></span><span style="display:flex;"><span>                          íÞÞÞÞÞÞÞÞÞÞÇ›                    üÞÇÇÇÇÇÇÇÇÇÇz›                           
+</span></span><span style="display:flex;"><span>                          —ÞÞÞÞGÞÞÞÞGÞÏ                    íGÞÞÞÇÇÇÇÞgg6›                           
+</span></span><span style="display:flex;"><span>                          ›üÞÞGGÞÞÞÞgÅ6›                   ígggÅÅÅÅÅÅgÅÇ—                           
+</span></span><span style="display:flex;"><span>                           íÅÅÅÅÅggÅggü                    zgÅÅÅÅggggÞÇÏ›                           
+</span></span><span style="display:flex;"><span>                           ›ÏgggggGGÞÇÏ                    ÏgÅÞÇ66666666{                           
+</span></span><span style="display:flex;"><span>                            —6ÇÇÇÇÇÇÇÇü—                   6ggíí66666666í                           
+</span></span><span style="display:flex;"><span>                             íÇÇÇÇÇÇÇÇÇz                  ›ÞÅg{ z66666666›                          
+</span></span><span style="display:flex;"><span>                              üÇÇÇÇÇÇÇÇz                  ›ÞgG— ›Ï6666666—                          
+</span></span><span style="display:flex;"><span>                              {ÞÇÇ6ÇÇ66Ï›                  íÞü›  zÇ6ü6666Ç                          
+</span></span><span style="display:flex;"><span>                               ›GÞÞÞGgÅg{                  íÞz   {666ÇÇÇÇÇü                         
+</span></span><span style="display:flex;"><span>                                zÅÅÅÅÅÅÅí                 ›{í›   ›ÏÞGGggÅÅz                         
+</span></span><span style="display:flex;"><span>                                ›ÇÅÅÅÅÅÅü›                ííí     ›ÇÅÅÅÅÅÅÞ›                        
+</span></span><span style="display:flex;"><span>                                 íGÅÅÞÞÞg—                {í›      {ÅÅgÅgÅü—                        
+</span></span><span style="display:flex;"><span>                                 {6{›6ÇgÞÞ               —{›        —Gg66z›—›                       
+</span></span><span style="display:flex;"><span>                                 ígÏ{zÅÞÇz                          ›6ÞgÞ›—6G{                      
+</span></span><span style="display:flex;"><span>                                 zÞzzzüÞGÇ                          {Þ6ÇGÅGz›{í›                    
+</span></span><span style="display:flex;"><span>                                ›í›   ››üG                         ›Ç66üGz›  ››í—                   
+</span></span><span style="display:flex;"><span>                               üí › ››› —g                         üg66Þ6› ›    —{›                 
+</span></span><span style="display:flex;"><span>                             ›ÇÇ6ÞÇz›—››Çg                         ÇÅÅÇü6z—› ›í——6gggÞz›            
+</span></span><span style="display:flex;"><span>                            —ÇÅgÅggÅgG{ügÏ—                        ÏgÅÅ6zÏÇGÅgGGgÅgÅgggÅg—          
+</span></span><span style="display:flex;"><span>                             íGgÅÅgÅÅÅgg6—                            ››››—í6GÅgÅgÅgÅÅgggü          
+</span></span><span style="display:flex;"><span>                               zÞGGGÇÏ—                                       —ízzzz—›              
+</span></span></code></pre></div><h2 id="-результаты">🧪 Результаты</h2>
+<ul>
+<li>Реализовано приложение, совмещающее функции <code>fortune</code> и <code>cowsay</code>.</li>
+<li>Освоены базовые функции Go: работа с файлами, строками, генерацией случайных чисел, форматированием вывода.</li>
+</ul>
+<h2 id="-пример-скриншота">📎 Пример скриншота</h2>
+<p><img src="/images/eris.png" alt="пример"></p>
+<h2 id="-заключение">📘 Заключение</h2>
+<p>Проект — хорошая стартовая точка для знакомства с языком Go и консольным вводом/выводом. Его можно расширить:</p>
+<ul>
+<li>добавлением новых картинок (ASCII),</li>
+<li>выбором темы цитат,</li>
+<li>web-интерфейсом.</li>
+</ul>
+<hr>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Киберполигон 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
